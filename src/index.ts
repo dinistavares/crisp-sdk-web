@@ -200,6 +200,8 @@ class Crisp {
 
   setTokenId(tokenId : string) {
     this.tokenId = tokenId;
+
+    window.CRISP_TOKEN_ID = this.tokenId;
   }
 
   setZIndex(zIndex : number) {
